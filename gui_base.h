@@ -5,9 +5,9 @@
 #ifndef __GUI_BASE_H__
 #define __GUI_BASE_H__
 
-ushort SCREEN_WIDTH;
-ushort SCREEN_HEIGHT;
-int screen_size;
+//ushort SCREEN_WIDTH;
+//ushort SCREEN_HEIGHT;
+//int screen_size;
 
 // 24 bit RGB. used in GUI Utility
 typedef struct RGB {

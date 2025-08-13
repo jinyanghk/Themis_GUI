@@ -11,9 +11,13 @@
 
 #include "window_manager.h"
 
-inline int min(int x, int y) { return x < y ? x : y; }
-inline int max(int x, int y) { return x > y ? x : y; }
-inline int clamp(int x, int l, int r) { return min(r, max(l, x)); }
+/*inline*/ int min(int x, int y) { return x < y ? x : y; }
+/*inline*/ int max(int x, int y) { return x > y ? x : y; }
+/*inline*/ int clamp(int x, int l, int r) { return min(r, max(l, x)); }
+
+ushort SCREEN_WIDTH;
+ushort SCREEN_HEIGHT;
+int screen_size;
 
 int isInRect(win_rect *rect, int x, int y)
 {

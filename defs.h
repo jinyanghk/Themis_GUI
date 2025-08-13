@@ -22,6 +22,7 @@ int             handleMessage(struct message*);
 // gui.c
 extern ushort   SCREEN_WIDTH;
 extern ushort   SCREEN_HEIGHT;
+extern int screen_size;
 extern struct RGB* screen;
 extern struct RGB* screen_buf1;
 extern struct RGB* screen_buf2;
